@@ -1,6 +1,6 @@
-import { setState } from 'react';
+import { useState } from 'react';
 
-const useWordle = (solution) => {
+const useRosebud = (solution) => {
 
     // Create variables for implementing game logic
     const [turn, setTurn] = useState(0) // Maintain a count of number of guesses used
@@ -23,12 +23,26 @@ const useWordle = (solution) => {
 
     // Collect and track player input
     // End guess when player hits 'enter'
-    const handleKeyup = () => {
+    const handleKeyup = ({ key }) => {
+        // Allow backspace/delete
+        if (key === 'Backspace') {
+            setCurrentGuess((prev) => {
+                return prev.slice(0, -1)
+            })
+            return
+        }
 
+        if (/^[A-Za-z]$/.test(key)) {
+            if (currentGuess.length < 5) {
+                setCurrentGuess((prev) => {
+                    return prev + key
+                })
+            }
+        }
     }
 
     return {turn, currentGuess, guesses, isCorrect, handleKeyup}
 
 }
 
-export default useWordle
+export default useRosebud

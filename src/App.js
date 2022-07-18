@@ -1,5 +1,6 @@
 import React from "react";
 import {useEffect, useState} from "react";
+import Rosebud from "./components/Rosebud";
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <h1>Rosebud</h1>
-      {solution && <div>Solution is: {solution.title}</div>}
+      {solution && <Rosebud solution={solution} />}
     </div>
   );
 }
