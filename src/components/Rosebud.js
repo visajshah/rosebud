@@ -13,6 +13,9 @@ export default function Rosebud({ solution }) {
     }, [handleKeyup])
 
     return (
-        <div>{currentGuess}</div>
+        <div>
+            <div>{solution.title}</div>
+            <div>{currentGuess}</div>
+        </div>
     )
 }

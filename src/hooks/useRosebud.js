@@ -11,7 +11,28 @@ const useRosebud = (solution) => {
 
     // Function to convert a guess into an array of letters with associated color codes
     const formatGuess = () => {
-        console.log("Formatting guess", currentGuess)
+        let solutionArray = [...solution.title]
+        let formattedGuess = [...currentGuess].map((l) => {
+            return {key: l, color: 'grey'}
+        })
+
+        // Find correct matches - color Green
+        formattedGuess.forEach((l, i) => {
+            if (solutionArray[i] === l.key) {
+                formattedGuess[i].color = 'green'
+                solutionArray[i] = null
+            }
+        })
+
+        // Find misplaced letters - color Blue
+        formattedGuess.forEach((l, i) => {
+            if (solutionArray.includes(l.key) && l.color !== 'green') {
+                formattedGuess[i].color = 'blue'
+                solutionArray[solutionArray.indexOf(l.key)] = null
+            }
+        })
+
+        return formattedGuess
     }
 
     // Maintain a history of guesses
@@ -37,12 +58,13 @@ const useRosebud = (solution) => {
                 return
             }
 
-            if (currentGuess.length !== 5) {
-                console.log("Length not 5")
+            if (currentGuess.length !== solution.title.length) {
+                console.log("Length not equal")
                 return
             }
 
-            formatGuess()
+            const formatted = formatGuess()
+            console.log(formatted)
         }
 
         // Allow backspace/delete
@@ -53,8 +75,8 @@ const useRosebud = (solution) => {
             return
         }
 
-        if (/^[A-Za-z]$/.test(key)) {
-            if (currentGuess.length < 5) {
+        if (/^[A-Za-z0-9]$/.test(key)) {
+            if (currentGuess.length < solution.title.length) {
                 setCurrentGuess((prev) => {
                     return prev + key
                 })
