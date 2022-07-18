@@ -11,7 +11,7 @@ const useRosebud = (solution) => {
 
     // Function to convert a guess into an array of letters with associated color codes
     const formatGuess = () => {
-
+        console.log("Formatting guess", currentGuess)
     }
 
     // Maintain a history of guesses
@@ -24,6 +24,27 @@ const useRosebud = (solution) => {
     // Collect and track player input
     // End guess when player hits 'enter'
     const handleKeyup = ({ key }) => {
+        // Accept guess
+        if (key === 'Enter') {
+            if (turn > 5) {
+                console.log("Guesses over")
+                return
+            }
+
+            // Duplicates not allowed
+            if (history.includes(currentGuess)) {
+                console.log("Tried already")
+                return
+            }
+
+            if (currentGuess.length !== 5) {
+                console.log("Length not 5")
+                return
+            }
+
+            formatGuess()
+        }
+
         // Allow backspace/delete
         if (key === 'Backspace') {
             setCurrentGuess((prev) => {
