@@ -8,6 +8,7 @@ const useRosebud = (solution) => {
     const [guesses, setGuesses] = useState([...Array(6)]) // Convert guess to array
     const [history, setHistory] = useState([]) // Collection of guess strings
     const [isCorrect, setIsCorrect] = useState(false) // True when player submits the correct answer
+    const [usedKeys, setUsedKeys] = useState({}) // Store data of used keys
 
     // Function to convert a guess into an array of letters with associated color codes
     const formatGuess = () => {
@@ -57,6 +58,30 @@ const useRosebud = (solution) => {
             return prevTurn + 1
         })
 
+        setUsedKeys((prevUsedKeys) => {
+            let newKeys = {...prevUsedKeys}
+
+            formattedGuess.forEach((l) => {
+                const currentColor = newKeys[l.key]
+
+                // Color keys
+                if (l.color === 'orange') {
+                    newKeys[l.key] = 'orange'
+                    return
+                }
+                if (l.color === 'blue' && currentColor !== 'orange') {
+                    newKeys[l.key] = 'blue'
+                    return
+                }
+                if (l.color === 'grey' && currentColor !== 'orange' && currentColor !== 'blue') {
+                    newKeys[l.key] = 'grey'
+                    return
+                }
+            })
+
+            return newKeys
+        })
+
         setCurrentGuess('')
     }
 
@@ -102,7 +127,7 @@ const useRosebud = (solution) => {
         }
     }
 
-    return {turn, currentGuess, guesses, isCorrect, handleKeyup}
+    return {turn, currentGuess, guesses, isCorrect, usedKeys, handleKeyup}
 
 }
 
