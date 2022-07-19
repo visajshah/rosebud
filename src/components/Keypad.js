@@ -9,7 +9,7 @@ export default function Keypad({ usedKeys }) {
           .then(json => {
             setLetters(json)
           })
-    }, [])
+    }, [setLetters])
 
     return (
         <div className="keypad">
