@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import useRosebud from '../hooks/useRosebud'
+import Grid from "./Grid";
 
 export default function Rosebud({ solution }) {
 
@@ -20,6 +21,7 @@ export default function Rosebud({ solution }) {
         <div>
             <div>{solution.title}</div>
             <div>{currentGuess}</div>
+            <Grid currentGuess={currentGuess} guesses={guesses} turn={turn} />
         </div>
     )
 }
