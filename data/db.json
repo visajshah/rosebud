@@ -1,8 +1,8 @@
 {
     "solutions": [
-        {"id": 0, "title": "Little Miss Sunshine"},
-        {"id": 1, "title": "Mad Max: Fury Road"},
-        {"id": 2, "title": "Mass"},
-        {"id": 3, "title": "Dunkirk"}
+        {"id": 0, "movie": "Little Miss Sunshine", "title": "LITTLEMISSSUNSHINE"},
+        {"id": 1, "movie": "Mad Max: Fury Road", "title": "MADMAXFURYROAD"},
+        {"id": 2, "movie": "Mass", "title": "MASS"},
+        {"id": 3, "movie": "Dunkirk", "title": "DUNKIRK"}
     ]
 }

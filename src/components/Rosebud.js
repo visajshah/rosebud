@@ -3,7 +3,7 @@ import useRosebud from '../hooks/useRosebud'
 
 export default function Rosebud({ solution }) {
 
-    const { currentGuess, handleKeyup } = useRosebud(solution)
+    const { currentGuess, handleKeyup, guesses, isCorrect, turn } = useRosebud(solution)
 
     // Event Listener when player types
     useEffect(() => {
@@ -11,6 +11,10 @@ export default function Rosebud({ solution }) {
 
         return () => window.removeEventListener('keyup', handleKeyup)
     }, [handleKeyup])
+
+    useEffect(() => {
+        console.log(guesses, turn, isCorrect)
+    }, [guesses, turn, isCorrect])
 
     return (
         <div>
