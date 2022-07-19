@@ -16,17 +16,17 @@ const useRosebud = (solution) => {
             return {key: l, color: 'grey'}
         })
 
-        // Find correct matches - color Green
+        // Find correct matches - color Orange
         formattedGuess.forEach((l, i) => {
             if (solutionArray[i] === l.key) {
-                formattedGuess[i].color = 'green'
+                formattedGuess[i].color = 'orange'
                 solutionArray[i] = null
             }
         })
 
         // Find misplaced letters - color Blue
         formattedGuess.forEach((l, i) => {
-            if (solutionArray.includes(l.key) && l.color !== 'green') {
+            if (solutionArray.includes(l.key) && l.color !== 'orange') {
                 formattedGuess[i].color = 'blue'
                 solutionArray[solutionArray.indexOf(l.key)] = null
             }
