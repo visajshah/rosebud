@@ -2,6 +2,8 @@
 
 Wordle for film buffs. Play the game [here](https://visajshah.github.io/rosebud/).
 
+* Currently available only for computer browsers.
+
 ## About
 
 Guess a 7-letter movie title in 6 attempts.
