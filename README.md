@@ -1,14 +1,14 @@
 # Rosebud
 
-Wordle for film buffs. Play the game [visajshah.github.io/rosebud/]here.
+Wordle for film buffs. Play the game [here](visajshah.github.io/rosebud/).
 
 ## About
 
-Guess a 7-letter movie title in 6 attempts.__
+Guess a 7-letter movie title in 6 attempts.
 
-Orange denotes letter in the word at the right position.__
-Blue denotes letter in the word NOT at the right position.__
-Grey denotes letter not in the word.
+* Orange denotes letter in the word at the right position.
+* Blue denotes letter in the word NOT at the right position.
+* Grey denotes letter not in the word.
 
 ## How to run locally
 
