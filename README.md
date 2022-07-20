@@ -6,7 +6,7 @@ Wordle for film buffs. Play the game [here](https://visajshah.github.io/rosebud/
 
 ## About
 
-Guess a 7-letter movie title in 6 attempts.
+Guess a 7-letter movie title (single word) in 6 attempts.
 
 * Orange denotes letter in the title at the right position.
 * Blue denotes letter in the title NOT at the right position.
