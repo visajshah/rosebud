@@ -14,171 +14,135 @@
         },
         {
             "id": 2,
-            "movie": "Bad Boys (1995)",
-            "title": "BADBOYS",
-            "director": "Michael Bay"
-        },
-        {
-            "id": 3,
             "movie": "Annette (2021)",
             "title": "ANNETTE",
             "director": "Leos Carax"
         },
         {
-            "id": 4,
+            "id": 3,
             "movie": "Colette (2018)",
             "title": "COLETTE",
             "director": "Wash Westmoreland"
         },
         {
-            "id": 5,
+            "id": 4,
             "movie": "Lincoln (2012)",
             "title": "LINCOLN",
             "director": "Steven Spielberg"
         },
         {
-            "id": 6,
-            "movie": "The Help (2011)",
-            "title": "THEHELP",
-            "director": "Tate Taylor"
-        },
-        {
-            "id": 7,
+            "id": 5,
             "movie": "Skyfall (2012)",
             "title": "SKYFALL",
             "director": "Sam Mendes"
         },
         {
-            "id": 8,
+            "id": 6,
             "movie": "Rebecca (1940)",
             "title": "REBECCA",
             "director": "Alfred Hitchcock"
         },
         {
-            "id": 9,
-            "movie": "Iron Man (2008)",
-            "title": "IRONMAN",
-            "director": "Jon Favreau"
-        },
-        {
-            "id": 10,
+            "id": 7,
             "movie": "Tootsie (1982)",
             "title": "TOOTSIE",
             "director": "Sydney Pollack"
         },
         {
-            "id": 11,
+            "id": 8,
             "movie": "Belfast (2021)",
             "title": "BELFAST",
             "director": "Kenneth Branagh"
         },
         {
-            "id": 12,
+            "id": 9,
             "movie": "Spectre (2015)",
             "title": "SPECTRE",
             "director": "Sam Mendes"
         },
         {
-            "id": 13,
+            "id": 10,
             "movie": "Aquaman (2018)",
             "title": "AQUAMAN",
             "director": "James Wan"
         },
         {
-            "id": 14,
+            "id": 11,
             "movie": "Arrival (2016)",
             "title": "ARRIVAL",
             "director": "Denis Villeneuve"
         },
         {
-            "id": 15,
+            "id": 12,
             "movie": "Vertigo (1958)",
             "title": "VERTIGO",
             "director": "Alfred Hitchcock"
         },
         {
-            "id": 16,
+            "id": 13,
             "movie": "Titanic (1997)",
             "title": "TITANIC",
             "director": "James Cameron"
         },
         {
-            "id": 17,
+            "id": 14,
             "movie": "Dunkirk (2017)",
             "title": "DUNKIRK",
             "director": "Christopher Nolan"
         },
         {
-            "id": 18,
+            "id": 15,
             "movie": "Birdman (2014)",
             "title": "BIRDMAN",
             "director": "Alejandro González Iñárritu"
         },
         {
-            "id": 19,
+            "id": 16,
             "movie": "Aladdin (1992)",
             "title": "ALADDIN",
             "director": "Ron Clements and John Musker"
         },
         {
-            "id": 20,
-            "movie": "Die Hard (1988)",
-            "title": "DIEHARD",
-            "director": "John McTiernan"
-        },
-        {
-            "id": 21,
+            "id": 17,
             "movie": "Encanto (2021)",
             "title": "ENCANTO",
             "director": "Byron Howard and Jared Bush"
         },
         {
-            "id": 22,
+            "id": 18,
             "movie": "Gravity (2013)",
             "title": "GRAVITY",
             "director": "Alfonso Cuarón"
         },
         {
-            "id": 23,
+            "id": 19,
             "movie": "Dracula (1931)",
             "title": "DRACULA",
             "director": "Tod Browning and Karl Freund"
         },
         {
-            "id": 24,
+            "id": 20,
             "movie": "Chicago (2002)",
             "title": "CHICAGO",
             "director": "Rob Marshall"
         },
         {
-            "id": 25,
-            "movie": "Rain Man (1988)",
-            "title": "RAINMAN",
-            "director": "Barry Levinson"
-        },
-        {
-            "id": 26,
+            "id": 21,
             "movie": "Reprise (2006)",
             "title": "REPRISE",
             "director": "Joachim Trier"
         },
         {
-            "id": 27,
+            "id": 22,
             "movie": "Tangled (2010)",
             "title": "TANGLED",
             "director": "Nathan Greno and Byron Howard"
         },
         {
-            "id": 28,
+            "id": 23,
             "movie": "Cruella (2021)",
             "title": "CRUELLA",
             "director": "Craig Gillespie"
-        },
-        {
-            "id": 29,
-            "movie": "Free Guy (2021)",
-            "title": "FREEGUY",
-            "director": "Shawn Levy"
         }
     ],
     "letters": [
