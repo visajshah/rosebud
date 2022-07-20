@@ -91,20 +91,13 @@ const useRosebud = (solution) => {
         // Accept guess
         if (key === 'Enter') {
             if (turn > 5) {
-                console.log("Guesses over")
                 return
             }
 
-            // Duplicates not allowed
-            if (history.includes(currentGuess)) {
-                console.log("Tried already")
-                return
-            }
-
-            if (currentGuess.length > solution.title.length) {
-                console.log("Length greater")
-                return
-            }
+            // if (currentGuess.length > solution.title.length) {
+            //     console.log("Length greater")
+            //     return
+            // }
 
             const formatted = formatGuess()
             addNewGuess(formatted)

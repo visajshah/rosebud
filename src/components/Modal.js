@@ -7,6 +7,7 @@ export default function Modal({ isCorrect, turn, solution }) {
                 <div>
                     <h1>You Win!</h1>
                     <p className="solution">{solution.movie}</p>
+                    <p>Directed by: {solution.director}</p>
                     <p>You found the solution in {turn} guesses :)</p>
                 </div>
             )}
@@ -14,6 +15,7 @@ export default function Modal({ isCorrect, turn, solution }) {
                 <div>
                     <h1>Out of tries!</h1>
                     <p className="solution">{solution.movie}</p>
+                    <p>Directed by: {solution.director}</p>
                     <p>Better luck next time.</p>
                 </div>
             )}

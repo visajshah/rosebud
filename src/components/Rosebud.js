@@ -28,8 +28,6 @@ export default function Rosebud({ solution }) {
 
     return (
         <div>
-            <div>{solution.title}</div>
-            <div>{currentGuess}</div>
             <Grid currentGuess={currentGuess} guesses={guesses} turn={turn} />
             <Keypad usedKeys={usedKeys} />
             {showModal && <Modal isCorrect={isCorrect} turn={turn} solution={solution} />}
