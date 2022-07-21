@@ -7,7 +7,7 @@ function App() {
   const [solution, setSolution] = useState(null)
 
   useEffect(() => {
-    fetch('http://localhost:3001/solutions')
+    fetch('https://rosebud-wordle.herokuapp.com/api/solutions')
       .then(res => res.json())
       .then(json => {
         // Generate a random integer to pick solution
