@@ -1,6 +1,6 @@
 # Rosebud
 
-Wordle for film buffs. Play the game [here](https://visajshah.github.io/rosebud/).
+Wordle for film buffs. Play the game [here](https://rosebud-wordle.herokuapp.com/), hosted on Heroku.
 
 * Currently available only for computer browsers.
 
