@@ -2,7 +2,6 @@
   "name": "rosebud",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://visajshah.github.io/rosebud",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
@@ -14,12 +13,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
-    "test": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts test",
-    "eject": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
