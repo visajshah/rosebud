@@ -2,7 +2,7 @@
 
 Wordle for film buffs. Play the game [here](https://rosebud-wordle.herokuapp.com/), hosted on Heroku.
 
-* The on-screen keyboard is still under development (a physical keyboard for now).
+* The on-screen keyboard is still under development (a physical keyboard required for now).
 
 ## About
 
