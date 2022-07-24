@@ -1,12 +1,12 @@
 # Rosebud
 
-Wordle for film buffs. Play the game [here](https://rosebud-wordle.herokuapp.com/), hosted on Heroku.
+Wordle with a twist for film buffs. Play the game [here](https://rosebud-wordle.herokuapp.com/), hosted on Heroku.
 
-* The on-screen keyboard is still under development (a physical keyboard required for now).
+* The on-screen keyboard is still under development. So, only available for computer users for now.
 
 ## About
 
-Guess a 7-letter movie title (single word) in 6 attempts.
+Guess a 7-letter movie title (single word) in 6 attempts using 3 hints provided.
 
 * Orange denotes letter in the title at the right position.
 * Blue denotes letter in the title NOT at the right position.
