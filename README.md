@@ -1,6 +1,6 @@
 # Rosebud
 
-Wordle with a twist for film buffs. Play the game [here](https://rosebud-wordle.herokuapp.com/), hosted on Heroku.
+Wordle with a twist for film buffs. Instead of guessing randomly, players guess a film title using keyphrase hints provided in addition to the color hints. Play the game [here](https://rosebud-wordle.herokuapp.com/), hosted on Heroku.
 
 * The on-screen keyboard is still under development. So, only available for computer users for now.
 
@@ -18,7 +18,3 @@ Guess a 7-letter movie title (single word) in 6 attempts using 3 hints provided.
 2. Run `npm install` to install all the required dependencies.
 3. Start the application using `npm run start`.
 4. Start the JSON server using `json-server ./data/db.json --port 3001`.
-
-## Some Screenshots:
-![Screenshot 2022-07-21 165800](https://user-images.githubusercontent.com/43022912/180204049-c9522a8b-c2b2-4b4e-b009-cfafabe9a27f.png)
-![Screenshot 2022-07-21 170036](https://user-images.githubusercontent.com/43022912/180204073-f24b457b-c261-4603-b45c-1f4c3a79669d.png)
