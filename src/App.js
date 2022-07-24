@@ -19,6 +19,14 @@ function App() {
   return (
     <div className="App">
       <h1>Rosebud</h1>
+      {solution && <div>{
+        <div key={solution} className="hintButton">
+          <button>{solution.hints[0]}</button>
+          <button>{solution.hints[1]}</button>
+          <button>{solution.hints[2]}</button>
+        </div>  
+      }</div>}
+      <br></br>
       {solution && <Rosebud solution={solution} />}
     </div>
   );

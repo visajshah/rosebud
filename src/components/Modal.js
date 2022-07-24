@@ -8,7 +8,7 @@ export default function Modal({ isCorrect, turn, solution }) {
                     <h1>You Win!</h1>
                     <p className="solution">{solution.movie}</p>
                     <p>Directed by: {solution.director}</p>
-                    <p>You found the solution in {turn} guesses :)</p>
+                    <p>You found the solution in {turn} guess(es) :)</p>
                 </div>
             )}
             {!isCorrect && (

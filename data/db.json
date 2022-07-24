@@ -4,145 +4,265 @@
             "id": 0,
             "movie": "Boyhood (2014)",
             "title": "BOYHOOD",
-            "director": "Richard Linklater"
+            "director": "Richard Linklater",
+            "hints": [
+                "Seize the moment",
+                "12-year shoot",
+                "Coming-of-age"
+            ]
         },
         {
             "id": 1,
             "movie": "Robocop (1987)",
             "title": "ROBOCOP",
-            "director": "Paul Verhoeven"
+            "director": "Paul Verhoeven",
+            "hints": [
+                "Rebuke of many Reagan-era policies",
+                "Cop -> cyborg",
+                "Reboot released in 2014"
+            ]
         },
         {
             "id": 2,
             "movie": "Annette (2021)",
             "title": "ANNETTE",
-            "director": "Leos Carax"
+            "director": "Leos Carax",
+            "hints": [
+                "So May We Start",
+                "Sparks",
+                "The opening monologue describes an ideal theatrical experience"
+            ]
         },
         {
             "id": 3,
             "movie": "Colette (2018)",
             "title": "COLETTE",
-            "director": "Wash Westmoreland"
+            "director": "Wash Westmoreland",
+            "hints": [
+                "Based upon the life of a French novelist of the same name",
+                "It's the hand that holds the pen that writes history",
+                "Ghostwriter"
+            ]
         },
         {
             "id": 4,
             "movie": "Lincoln (2012)",
             "title": "LINCOLN",
-            "director": "Steven Spielberg"
+            "director": "Steven Spielberg",
+            "hints": [
+                "Daniel Day-Lewis's third Best Actor Oscar win",
+                "Mississippi 13th Amendment ratification",
+                "Battle Cry of Freedom"
+            ]
         },
         {
             "id": 5,
             "movie": "Skyfall (2012)",
             "title": "SKYFALL",
-            "director": "Sam Mendes"
+            "director": "Sam Mendes",
+            "hints": [
+                "23rd official James Bond film",
+                "Theme song performed by Adele",
+                "Bond's childhood home in Scotland"
+            ]
         },
         {
             "id": 6,
             "movie": "Rebecca (1940)",
             "title": "REBECCA",
-            "director": "Alfred Hitchcock"
+            "director": "Alfred Hitchcock",
+            "hints": [
+                "Only film by Hitchcock to win Academy Award for Best Picture",
+                "Gothic",
+                "Hitchcock's first American production"
+            ]
         },
         {
             "id": 7,
             "movie": "Tootsie (1982)",
             "title": "TOOTSIE",
-            "director": "Sydney Pollack"
+            "director": "Sydney Pollack",
+            "hints": [
+                "Cross-gender acting",
+                "Trashy hospital soap",
+                "Musical adaptation on Broadway"
+            ]
         },
         {
             "id": 8,
             "movie": "Belfast (2021)",
             "title": "BELFAST",
-            "director": "Kenneth Branagh"
+            "director": "Kenneth Branagh",
+            "hints": [
+                "Northern Ireland conflict",
+                "Everlasting Love",
+                "Won Academy Award for Best Original Screenplay"
+            ]
         },
         {
             "id": 9,
             "movie": "Spectre (2015)",
             "title": "SPECTRE",
-            "director": "Sam Mendes"
+            "director": "Sam Mendes",
+            "hints": [
+                "Day of the Dead parade",
+                "Writing's on the Wall",
+                "Aston Martin DB10"
+            ]
         },
         {
             "id": 10,
             "movie": "Aquaman (2018)",
             "title": "AQUAMAN",
-            "director": "James Wan"
+            "director": "James Wan",
+            "hints": [
+                "Highest-grossing DCEU film",
+                "Atlantis",
+                "Nicole Kidman is a queen"
+            ]
         },
         {
             "id": 11,
             "movie": "Arrival (2016)",
             "title": "ARRIVAL",
-            "director": "Denis Villeneuve"
+            "director": "Denis Villeneuve",
+            "hints": [
+                "War doesn't make winners, only widows.",
+                "Premonitions",
+                "Story of Your Life"
+            ]
         },
         {
             "id": 12,
             "movie": "Vertigo (1958)",
             "title": "VERTIGO",
-            "director": "Alfred Hitchcock"
+            "director": "Alfred Hitchcock",
+            "hints": [
+                "Acrophobia",
+                "Last Hitchcock-Stewart collaboration",
+                "The man wants to go to bed with a woman who is dead."
+            ]
         },
         {
             "id": 13,
             "movie": "Titanic (1997)",
             "title": "TITANIC",
-            "director": "James Cameron"
+            "director": "James Cameron",
+            "hints": [
+                "Jack and Rose",
+                "I'm the King of the World",
+                "Heart of the Ocean"
+            ]
         },
         {
             "id": 14,
             "movie": "Dunkirk (2017)",
             "title": "DUNKIRK",
-            "director": "Christopher Nolan"
+            "director": "Christopher Nolan",
+            "hints": [
+                "Shepherd Tone",
+                "Harry Style's film debut",
+                "Land, Water, Air"
+            ]
         },
         {
             "id": 15,
             "movie": "Birdman (2014)",
             "title": "BIRDMAN",
-            "director": "Alejandro González Iñárritu"
+            "director": "Alejandro González Iñárritu",
+            "hints": [
+                "What We Talk About When We Talk About Love",
+                "Superhero",
+                "Broadway"
+            ]
         },
         {
             "id": 16,
             "movie": "Aladdin (1992)",
             "title": "ALADDIN",
-            "director": "Ron Clements and John Musker"
+            "director": "Ron Clements and John Musker",
+            "hints": [
+                "Arabian Nights",
+                "Part of Disney Renaissance",
+                "Live-action film adaptation released in 2019"
+            ]
         },
         {
             "id": 17,
             "movie": "Encanto (2021)",
             "title": "ENCANTO",
-            "director": "Byron Howard and Jared Bush"
+            "director": "Byron Howard and Jared Bush",
+            "hints": [
+                "Colombian protagonist",
+                "We Don't Talk About Bruno",
+                "Tejo"
+            ]
         },
         {
             "id": 18,
             "movie": "Gravity (2013)",
             "title": "GRAVITY",
-            "director": "Alfonso Cuarón"
+            "director": "Alfonso Cuarón",
+            "hints": [
+                "Mera Joota Hai Japani",
+                "Don't Let Go",
+                "Kessler Syndrome"
+            ]
         },
         {
             "id": 19,
             "movie": "Dracula (1931)",
             "title": "DRACULA",
-            "director": "Tod Browning and Karl Freund"
+            "director": "Tod Browning and Karl Freund",
+            "hints": [
+                "Based on Bram Stoker's novel of the same name",
+                "Archetypal vampire",
+                "Listen to them. Children of the night. What music they make."
+            ]
         },
         {
             "id": 20,
             "movie": "Chicago (2002)",
             "title": "CHICAGO",
-            "director": "Rob Marshall"
+            "director": "Rob Marshall",
+            "hints": [
+                "All That Jazz",
+                "1920s Chicago",
+                "Vaudeville"
+            ]
         },
         {
             "id": 21,
             "movie": "Reprise (2006)",
             "title": "REPRISE",
-            "director": "Joachim Trier"
+            "director": "Joachim Trier",
+            "hints": [
+                "First film of the Oslo Trilogy",
+                "Contrasting writing careers",
+                "Paris calling"
+            ]
         },
         {
             "id": 22,
             "movie": "Tangled (2010)",
             "title": "TANGLED",
-            "director": "Nathan Greno and Byron Howard"
+            "director": "Nathan Greno and Byron Howard",
+            "hints": [
+                "Earlier called Rapunzel",
+                "50th Disney animated feature film",
+                "Lost princess with magical long blonde hair"
+            ]
         },
         {
             "id": 23,
             "movie": "Cruella (2021)",
             "title": "CRUELLA",
-            "director": "Craig Gillespie"
+            "director": "Craig Gillespie",
+            "hints": [
+                "Part of the 101 Dalmatians franchise",
+                "Set in the London fashion scene in the 1970s",
+                "Stars two Emmas"
+            ]
         }
     ],
     "letters": [
