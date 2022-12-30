@@ -1,6 +1,6 @@
 # Rosebud
 
-Wordle with a twist for film buffs. Instead of guessing randomly, players guess a film title using keyphrase hints provided in addition to the color hints. Play the game [here](https://rosebud-wordle.herokuapp.com/), hosted on Heroku.
+Wordle with a twist for film buffs. Instead of guessing randomly, players guess a film title using keyphrase hints provided in addition to the color hints.
 
 * The on-screen keyboard is still under development. So, only available for computer users for now.
 
