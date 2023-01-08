@@ -4,6 +4,8 @@ Wordle with a twist for film buffs. Instead of guessing randomly, players guess 
 
 * The on-screen keyboard is still under development. So, only available for computer users for now.
 
+Currently, looking for a new deployment platform since Heroku changed their service plans. The game still runs locally on your device if you prefer.
+
 ## About
 
 Guess a 7-letter movie title (single word) in 6 attempts using 3 hints provided.
